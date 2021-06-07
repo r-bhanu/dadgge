@@ -16,7 +16,7 @@ body {
     padding-bottom: 80px;
 }
 .logo {
-    margin-left: 50px;
+    margin-left: 2vw;
 }
 header {
     background-repeat: no-repeat;
@@ -26,11 +26,11 @@ header {
     
 }
 .searchbox {
-    width: 500px;
-    height: 20px;
+    width: 38vw;
+    height: 2vw;
     background-color:black;
-    margin-left: 100px;
-    margin-right: 320px;
+    margin-left: 10vw;
+    margin-right: 24vw;
     margin-bottom: 5px;
     margin-top: 2px;
     padding-bottom: 1px;
