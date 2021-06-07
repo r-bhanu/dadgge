@@ -107,10 +107,7 @@ header {
 #imageline2 {
     margin-bottom: 6vw;
 }
-footer {
-    background-color:black;
-    padding-bottom: 2vw;
-}
+
 .icons {
     display: flex;
     padding-top: 6vw;
@@ -144,4 +141,9 @@ footer {
     font-size: 25px;
     margin-left: 470px;
     
+}
+footer {
+    background-color:black;
+    padding-bottom: 2vw;
+    align-items: center;
 }
