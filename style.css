@@ -109,11 +109,12 @@ header {
 }
 
 .icons {
-    display: flex;
+    display: block;
     padding-top: 6vw;
     padding-bottom: 3vw;
-    margin-left: 500px;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .ic {
     background-color: whitesmoke;
