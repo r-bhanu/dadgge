@@ -95,6 +95,7 @@ header {
    width: 250px;
    border-radius: 10px;
    margin-bottom: 20px;
+   box-shadow: 0 0.4vw 0.8vw rgba(0, 0, 0, 0.3), 0 0.6vw 2vw 0 rgba(0, 0, 0, 0.28);
 }
 .movie_img:hover {
     transform: scale(1.15);
