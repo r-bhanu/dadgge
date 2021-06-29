@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico">
     
+    
     </head>
     <body>
         <header style="background-image: url('bg.png'); background-size: cover;">
             <div class="logoline">
                 <img src="logo.svg" class="logo">
-                <input type="text" placeholder="Search movie here" class="searchbox" onfocus="this.placeholder=''" onblur="this.placeholder='Search movie here'">
+                <input type="text" placeholder="Search movie here" class="searchbox" id="searchbox" onfocus="this.placeholder=''" onblur="this.placeholder='Search movie here'">
                 <img src="profile.svg" class="profile">
             </div>
             <div>
@@ -36,49 +37,49 @@
             <div class="imageline" id="imageline1">
                 <div class="content">
                     <a href="https://www.imdb.com/title/tt2543164/" target="_blank"><img class="movie_img" id="image1" src="arrival.jpg"></a>
-                    ARRIVAL
+                    <p class="name" id="name1">ARRIVAL</p>
                 </div>
 
                 <div class="content">
                     <a href="https://www.imdb.com/title/tt2798920/" target="_blank"><img class="movie_img" id="image2" src="annhilation.jpg"></a>
-                    ANNHILATION
+                    <p class="name" id="name2">ANNHILATION</p>
                 </div>
 
                 <div class="content">
                     <a href="https://www.imdb.com/title/tt0816692/" target="_blank"><img class="movie_img" id="image3" src="intersteller.jpg"></a>
-                    INTERSTELLER
+                    <p class="name" id="name3">INTERSTELLER</p>
                 </div>
 
                 <div class="content">
                     <a href="https://www.imdb.com/title/tt6087226/" target="_blank"><img class="movie_img" id="image4" src="coma.jpg"></a>
-                    COMA
+                    <p class="name" id="name4">COMA</p>
                 </div>
             </div>
             <p class="heading">SCI-FI MOVIES</p>
             <div class="imageline" id="imageline2">
                 <div class="content">
                     <a href="https://www.imdb.com/title/tt3201640/" target="_blank"><img class="movie_img" id="image5" src="extinction.jpg"></a>
-                    EXTINCTION
+                    <p class="name" id="name5">EXTINCTION</p>
                 </div>
 
                 <div class="content">
                     <a href="https://www.imdb.com/title/tt1375666/" target="_blank"><img class="movie_img" id="image6" src="inception.jpg"></a>
-                    INCEPTION
+                    <p class="name" id="name6">INCEPTION</p>
                 </div>
 
                 <div class="content">
                     <a href="https://www.imdb.com/title/tt0133093/" target="_blank"><img class="movie_img" id="image7" src="matrix.jpg"></a>
-                    MATRIX
+                    <p class="name" id="name7">MATRIX</p>
                 </div>
 
                 <div class="content">
                     <a href="https://www.imdb.com/title/tt0448134/" target="_blank"><img class="movie_img" id="image8" src="sunshine.jpg"></a>
-                    SUNSHINE
+                    <p class="name" id="name8">SUNSHINE</p>
                 </div>
             </div>
         </div>
         <footer>
-            <div class="icons"style="display: block; margin-left: auto; margin-right: auto;">
+            <div class="icons" style="display: block; margin-left: auto; margin-right: auto;">
                 <a target="_blank" href="https://www.facebook.com/alcheringaiitg/"><img src="facebook.svg" class="ic" id="fb"></a>
                 <a target="_blank" href="https://twitter.com/alcheringaiitg?lang=en"><img src="twitter.svg" class="ic" id="tw"></a>
                 <a target="_blank" href="https://www.youtube.com/user/iitgalcher"><img src="youtube.svg" class="ic" id="yt"></a>
@@ -90,5 +91,7 @@
                 </p>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="test.js"></script>
     </body>
 </html>
