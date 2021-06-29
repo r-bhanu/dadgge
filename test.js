@@ -41,17 +41,3 @@ const getQueryDetails=async function(query){
     return data.results;
 }
 
-/*  
-//api to get response
-    fetch('https://api.themoviedb.org/3/search/movie?api_key=371ec43eb13457f55291ed6187473bf0&query=avengers')
-    .then(response => response.json())
-    .then(data => console.log(data));
-
-//api to get image
-    fetch('https://image.tmdb.org/t/p/w500/kqjL17yufvn9OVLyXYpvtyrFfak.jpg');
-
-//api to get details
-    fetch('https://api.themoviedb.org/3/movie/299534?api_key=371ec43eb13457f55291ed6187473bf0&query=avengers')
-    .then(response => response.json())
-    .then(data => console.log(data));
-  */
