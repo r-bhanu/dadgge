@@ -2,6 +2,24 @@
 // Example API Request            : https://api.themoviedb.org/3/movie/550?api_key=371ec43eb13457f55291ed6187473bf0
 // API Key (v3 auth)              : 371ec43eb13457f55291ed6187473bf0
 
+var t1=document.getElementById("t1");
+var t2= document.getElementById("t2");
+setInterval(myheading,2000);
+
+function myheading(){
+       t1.innerHTML="Scroll Down For";
+       t2.innerHTML="More Hits";
+    
+}
+
+setInterval(myheading2,4000);
+
+function myheading2(){
+    t1.innerHTML="STREAM ALL THE POPULAR";
+    t2.innerHTML="MOVIES ON THE GO";
+ 
+}
+
 
 var search=document.getElementById("searchbox");
 var imgArr=document.getElementsByClassName("movie_img");
